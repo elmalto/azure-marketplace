@@ -4,7 +4,7 @@
   "parameters": {
     "artifactsBaseUrl": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/elastic/azure-marketplace/master/src",
+      "defaultValue": "https://raw.githubusercontent.com/elmalto/azure-marketplace/master/src",
       "metadata": {
         "artifactsBaseUrl": "Base URL of the Elastic template gallery package"
       }
@@ -45,7 +45,7 @@
         "Yes",
         "No"
       ],
-      "defaultValue": "Yes",
+      "defaultValue": "No",
       "metadata": {
         "description": "Install the Plugins - Marvel, Shield, Watcher"
       }
@@ -246,7 +246,7 @@
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "esvnet",
+      "defaultValue": "VNET",
       "metadata": {
         "description": "Virtual Network"
       }
