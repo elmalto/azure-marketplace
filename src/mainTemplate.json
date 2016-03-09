@@ -391,13 +391,13 @@
       "addressPrefix": "10.0.0.0/16",
       "subnet": {
         "master": {
-          "name": "master",
+          "name": "Subnet",
           "prefix": "10.0.0.0/24",
           "vnet": "[parameters('virtualNetworkName')]"
         },
         "data": {
-          "name": "data",
-          "prefix": "10.0.1.0/24",
+          "name": "Subnet",
+          "prefix": "10.0.0.0/24",
           "vnet": "[parameters('virtualNetworkName')]"
         }
       }
